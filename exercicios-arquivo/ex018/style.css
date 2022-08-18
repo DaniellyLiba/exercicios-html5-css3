@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'charb';
+    src: url('fonts/charbb_reg.otf') format('opentype'), url('fonts/charbb_reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: #000000;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(150deg, #74A4BC, #B6D6CC);
+    background-attachment: fixed;
+}
+
+main {
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    text-align: justify;
+    padding: 15px;
+    box-shadow: 5px 5px 12px #74a4bc8e;
+
+}
+
+h1 {
+    color: #91199c;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.781);
+    font: normal normal 5em charb, 'Times New Roman', Times, serif
+}
+
+h2 {
+    color: #309646;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
+    font: normal normal 3.5em 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center;
+    color: #309646;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.712);
+    font: normal normal 3.5em 'Times New Roman', Times, serif;
+}
+
+article {
+background-color: #91199c;
+margin: auto;
+margin-top: 40px;
+width: 500px;
+font:normal normal 1em 'Courier New', Courier, monospace;
+color: white;
+padding: 5px;
+border-radius: 10px;
+text-align: justify;
+box-shadow: 10px 10px 12px #89a7a5 ;
+}
