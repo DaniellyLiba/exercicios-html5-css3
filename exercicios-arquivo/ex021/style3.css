@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(78, 78, 78);
+    margin: 0px;
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    margin: 8px;
+}
+
+header>nav{
+    background-color: rgb(78, 78, 78);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.459);
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+    margin: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(129, 27, 27);
+    text-decoration: underline;
+}
+
+main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px 0px;
+}
+
+section{
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+}
+
+aside{
+    background-color: rgb(155, 155, 155);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+footer > p{
+    margin: 0px;
+}
