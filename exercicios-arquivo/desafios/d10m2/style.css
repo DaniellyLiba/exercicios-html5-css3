@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'droid';
+    src: url('fonts/IDroid.otf') format('opentype');
+}
+
+body{
+    background-color: #A2EAC2;
+    width: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e );
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    padding: 10px;
+}
+
+nav{
+    padding: 10px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+a:hover{
+    background-color: #2fa866;
+}
+
+header>p{
+    text-align: center;
+    margin: 0px 50px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
+    padding: 0px 0px 10px 0px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    font-size: 3em;
+    margin: 0px;
+    padding: 25px 0px 10px 0px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+
+main{
+    min-width: 400px;
+    max-width: 800px;
+    background-color: white;
+    text-align: justify;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h2{
+    margin: 0px;
+    font-family: 'droid';
+    color: #125B30;
+    padding: 20px 0px 10px 15px;
+}
+
+p{
+    text-indent: 1.5em;
+    margin: 0px;
+}
+
+h3{
+    background-image: linear-gradient(to right, #A2EAC2, white);
+    color: #125B30;
+    font-family: 'droid';
+    padding: 0px 10px;
+    margin-left: 15px;
+}
+
+p>a{
+    font-weight: bold;
+    color: #074421;
+    padding: 0px;
+}
+
+p>a:hover{
+    background-color: white;
+}
+
+#divbugdroid{
+    position: relative;
+    padding-bottom: 20%;
+}
+
+#imgbugdroid{
+    position: absolute;
+    height: 110%;
+    width: 30%;
+    top: 0%;
+    left: 34%;
+}
+
+.youtubevideo{
+    background-color: #125B30;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 50%;
+    height: 0px;
+}
+
+.youtubevideo>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+h4{
+background-color: #2fa866;
+border-radius: 10px 10px 0px 0px;
+padding: 10px;
+color: white;
+}
+
+#aprendamais{
+    background-color: #acebc8;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+    margin: 15px;
+}
+
+#aprendamais>p{
+    padding: 0px 10px 5px 10px;
+}
+
+footer{
+    background-color: #125B30;
+    text-align: center;
+    color: #A2EAC2;
+    margin-top: 20px;
+}
+
+.linkcor1:hover{
+    background-color: #A2EAC2;
+}
+
+.linkfooter{
+    color: white;
+}
+
+.linkfooter:hover{
+    background-color: #125B30;
+}
