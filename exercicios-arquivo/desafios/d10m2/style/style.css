@@ -92,6 +92,7 @@ p>a{
 
 p>a:hover{
     background-color: white;
+    text-decoration: underline;
 }
 
 #divbugdroid{
@@ -158,6 +159,7 @@ footer{
 
 .linkcor1:hover{
     background-color: #A2EAC2;
+    text-decoration: underline;
 }
 
 .linkfooter{
@@ -166,4 +168,5 @@ footer{
 
 .linkfooter:hover{
     background-color: #125B30;
+    text-decoration: underline;
 }
