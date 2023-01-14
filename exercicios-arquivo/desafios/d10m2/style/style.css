@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: 'droid';
-    src: url('fonts/IDroid.otf') format('opentype');
+    src: url('fonts/idroid.otf') format('opentype');
 }
 
 body{
@@ -23,16 +23,19 @@ p{
 
 nav{
     padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.349);
 }
 
 a{
     color: #ffffff;
     text-decoration: none;
     padding: 10px 15px;
+    transition-duration: 1s;
 }
 
 a:hover{
     background-color: #2fa866;
+    border-radius: 0.5px;
 }
 
 header>p{
@@ -55,6 +58,7 @@ h1{
 }
 
 main{
+    padding: 5px;
     min-width: 400px;
     max-width: 800px;
     background-color: white;
@@ -64,9 +68,14 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 
+picture>img{
+    margin: auto;
+    display: block;
+}
+
 h2{
     margin: 0px;
-    font-family: 'droid';
+    font-family: 'droid', Courier, monospace;
     color: #125B30;
     padding: 20px 0px 10px 15px;
 }
@@ -79,7 +88,7 @@ p{
 h3{
     background-image: linear-gradient(to right, #A2EAC2, white);
     color: #125B30;
-    font-family: 'droid';
+    font-family: 'droid', Courier, monospace;
     padding: 0px 10px;
     margin-left: 15px;
 }
