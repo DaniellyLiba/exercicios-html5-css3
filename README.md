@@ -4,6 +4,3 @@
 
 ---
 
-Acesse minhas redes sociais para continuar acompanhando meu progresso:
-
-:ghost: [Meu Instagram](https://www.instagram.com/ynnx.burning/) 
