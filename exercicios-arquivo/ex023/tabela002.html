@@ -22,10 +22,16 @@
             border-collapse: collapse;
             width: 500px;
             margin: auto;
+            position: relative;
         }
         td, th{
             border: 1px solid #000000;
             padding: 10px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0px;
+            background-color: #546970;
         }
         thead, tfoot{
             background-color: #546970;
