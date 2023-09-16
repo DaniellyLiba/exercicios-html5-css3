@@ -1,0 +1,13 @@
+@charset"utf-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+p{
+    padding: 10px;
+    text-align: justify;
+}
